@@ -37,14 +37,14 @@ class TestAnnouncement(unittest.TestCase):
 
     def test_5_announcement_signing_verification(self):
         """
-        Test the signing public key process
+        Test the verification public key process
         """
         result = an_isvp.Announcement.verify_signature_ea_public_key(self, an_isvp.Announcement._Announcement__signed_public_key)
         self.assertTrue(result)
     
     def test_6_announcement_publish_bb(self):
         """
-        Test the signing public key process
+        Test the bulletin board export process
         """
         result = an_isvp.Announcement.publish_data_bulletin_board(self)
         self.assertTrue(result)    
