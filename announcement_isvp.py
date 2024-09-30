@@ -21,7 +21,7 @@ from cryptography.hazmat.primitives.asymmetric.utils import decode_dss_signature
 from sslib import shamir # type: ignore
 
 class Announcement():
-    #Announcement class used to perform the necessary operations duing the Announcement phase in the ISVP
+    #Announcement class used to perform the necessary operations during the Announcement phase in the ISVP
     #Variables:
         # __election_type -> private variable to store a string value of the election type
         # __election_opening_datetime -> private variable to store a string value of the date and time of the opening event
