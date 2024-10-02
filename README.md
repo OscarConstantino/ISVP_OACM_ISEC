@@ -1,4 +1,4 @@
-# ISVP_OACM_ISEC
+# SIVP_OACM_ISEC
 
 Repository for the ISVP implementation and tests
 
